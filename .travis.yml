@@ -1,0 +1,15 @@
+language: generic
+
+git:
+    submodules: true
+
+before_install:
+    - wget https://github.com/gohugoio/hugo/releases/download/v0.74.3/hugo_0.74.3_Linux-64bit.deb -O hugo.deb -q
+    - sudo dpkg -i ./hugo.deb && rm ./hugo.deb
+
+deploy:
+    provider: script
+    script: bash ./deploy.sh
+    on:
+      branch: master
+  
