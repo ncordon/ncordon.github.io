@@ -6,10 +6,16 @@ git:
 before_install:
     - wget https://github.com/gohugoio/hugo/releases/download/v0.74.3/hugo_0.74.3_Linux-64bit.deb -O hugo.deb -q
     - sudo dpkg -i ./hugo.deb && rm ./hugo.deb
+    - rm -rf public && mkdir public
+
+script: hugo
 
 deploy:
-    provider: script
-    script: bash ./deploy.sh
+    provider: pages
+    local_dir: public
+    skip_cleanup: true
+    keep_history: true
+    github_token: $GITHUB_API_KEY
     on:
       branch: master
   

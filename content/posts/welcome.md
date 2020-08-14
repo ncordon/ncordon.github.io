@@ -5,4 +5,4 @@ description = "My first blog post"
 series = ["Theme", "Hugo"]
 +++
 
-👋
+👋 Welcome!
