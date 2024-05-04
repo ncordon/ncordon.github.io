@@ -17,8 +17,8 @@ pygmentscodefencesguesssyntax = true
 [params]
     description = "Nacho Cordon's website"
     keywords = "blog,developer,personal"
-    author = "Software Engineer"
-    info = "Disney Streaming Services"
+    author = "Senior Software Engineer"
+    info = "@Neo4j"
     avatarurl = "images/avatar.jpg"
     dateformat = "January 2, 2006"
 
