@@ -3,10 +3,10 @@ title = "About"
 slug = "about"
 +++
 
-I am Spanish software engineer, based at London, UK.
+I am a software engineer, based in London, UK.
 
-I studied a Bachelor's degree on Computer Science and Mathematics at university of Granada, Spain. And a Master's degree on Mathematics and Physics, at the same university.
+I am currently developing Neo4j's [language server](https://github.com/neo4j/cypher-language-support/), in Typescript. The project includes some sophisticated parts such as a part of the database's stack transpiled from Java / Scala to Javascript, which provides for semantic analysis of queries. Previous to that, I was working on the surface of their query execution engine. Before that, I worked at Disney Streaming, developing microservices in functional Scala.
 
-I currently work with Scala, developing microservices. I have also worked or done personal projects with Go, R or Python. I am a computer enthusiast and fan of difficult problems.
+Overall I've worked with a great range of projects and languages: ranging from research in machine learning, genomics, compiler stacks, distributed systems to now language projects. I like to have a deep understanding of things, hard problems and continuous learning motivate me, I like to work at a high pace and I am very adaptable.
 
-If you are interested in my whole experience, here is my [resume](../resume.pdf). You may contact me at `nacho<dot>cordon<dot>castillo<at>gmail<dot>com`.
+Here is my full [resume](../resume.pdf).
